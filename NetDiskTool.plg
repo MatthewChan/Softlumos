@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetDiskTool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Chris\LOCALS~1\Temp\RSPF6B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "d:\softlumos\inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/NetDiskTool.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Source\Myself\NetDiskTool\ClientSocket.cpp"
+"E:\Source\Myself\NetDiskTool\ComboBar.cpp"
+"E:\Source\Myself\NetDiskTool\LoginDlg.cpp"
+"E:\Source\Myself\NetDiskTool\MainFrm.cpp"
+"E:\Source\Myself\NetDiskTool\NetDiskTool.cpp"
+"E:\Source\Myself\NetDiskTool\NetDiskToolDoc.cpp"
+"E:\Source\Myself\NetDiskTool\NetDiskToolView.cpp"
+"E:\Source\Myself\NetDiskTool\ReEdit.cpp"
+"E:\Source\Myself\NetDiskTool\TypeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Chris\LOCALS~1\Temp\RSPF6B.tmp" 
+Creating temporary file "C:\DOCUME~1\Chris\LOCALS~1\Temp\RSPF6C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"\Source\bin\Release/NetDiskTool.pdb" /map:"Release/NetDiskTool.map" /debug /machine:I386 /out:"\Source\bin\Release/NetDiskTool.exe" 
+.\Release\ClientSocket.obj
+.\Release\ComboBar.obj
+.\Release\LoginDlg.obj
+.\Release\MainFrm.obj
+.\Release\NetDiskTool.obj
+.\Release\NetDiskToolDoc.obj
+.\Release\NetDiskToolView.obj
+.\Release\ReEdit.obj
+.\Release\StdAfx.obj
+.\Release\TypeDlg.obj
+.\Release\NetDiskTool.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Chris\LOCALS~1\Temp\RSPF6C.tmp"
+<h3>Output Window</h3>
+Compiling...
+ClientSocket.cpp
+ComboBar.cpp
+LoginDlg.cpp
+MainFrm.cpp
+NetDiskTool.cpp
+NetDiskToolDoc.cpp
+NetDiskToolView.cpp
+----------------No Defined MATTHEW_DEBUG----------------
+ReEdit.cpp
+TypeDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NetDiskTool.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
